@@ -1,0 +1,3 @@
+INSERT INTO "EMPLOYEE" (ID, NAME, EMAIL, CREATED_DATE, SALARY) VALUES(1, 'Rajendar Kumar Poonia','Rajendar@yahoo.com', TO_DATE('2017-04-23', 'yyyy-mm-dd'), 1000);
+INSERT INTO "EMPLOYEE" (ID, NAME, EMAIL, CREATED_DATE, SALARY) VALUES(2, 'Rajendar Kumar','kumar@yahoo.com', TO_DATE('2017-04-23', 'yyyy-mm-dd'), 1000);
+INSERT INTO "EMPLOYEE" (ID, NAME, EMAIL, CREATED_DATE, SALARY) VALUES(3, 'Rajendar Poonia','poonia@yahoo.com', TO_DATE('2017-04-23', 'yyyy-mm-dd'), 1000);
