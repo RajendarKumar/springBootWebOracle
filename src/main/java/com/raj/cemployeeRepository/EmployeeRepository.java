@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.raj.customerRepository;
+package com.raj.cemployeeRepository;
 
 import java.util.Date;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.raj.model.Employee;
  * @author admin
  *
  */
-public interface CustomerRepository extends CrudRepository<Employee, Long>{
+public interface EmployeeRepository extends CrudRepository<Employee, Long>{
 
 	List<Employee> findByEmail(String email);
 
